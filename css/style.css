@@ -35,9 +35,10 @@ header {
 }
 
 .bottom-header {
-  height: 200px;
+  height: 150px;
   width: 100%;
-  background-color: violet;
+  background-color: grey;
+  position: relative;
 }
 
 /* barra menu */
@@ -113,5 +114,19 @@ transform: translate(0, -50%);
   border-radius: 5px;
   color: white;
 }
+
+.bottom-header-container {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.bottom-header-container > h3 {
+  margin: 20px auto;
+  color: rgb(74, 80, 80);
+}
+
 
 /* /header */
