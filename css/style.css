@@ -213,3 +213,62 @@ section > hr {
 
 /* /section inferiore */
 /* /corpo centrale */
+
+/* footer */
+footer {
+  width: 80%;
+  background-color: rgb(188, 198, 186);
+  margin: auto;
+}
+
+.footer-container-left, .footer-container-right {
+  /* height: 100px; */
+  width: 40%;
+  margin: 5%;
+  float: left;
+  position: relative;
+}
+
+.footer-container-left > h2 {
+  line-height: 100px;
+}
+
+.footer-container-right > p {
+  color: rgb(34, 35, 36);
+  float: left;
+  line-height: 100px;
+}
+.label-container {
+  width: 50%;
+  position: relative;
+  float: left;
+  height: 100px;
+}
+.choose {
+  margin-left: 50px;
+  display: inline-block;
+  float: left;
+  line-height: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+
+}
+.footer-container-right > .cta {
+  font-size: 12px;
+  width: 150px;
+  text-transform: uppercase;
+  float: left;
+  position: absolute;
+  left: 50%;
+  transform: translate(0, -25%);
+}
+
+.second {
+  position: fixed;
+  bottom: -1%;
+  left: 75%;
+}
+
+
+/* /footer */
