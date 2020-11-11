@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* istruzioni generali */
+.float-left {
+  float: left;
+}
+/* /instruzioni generali */
+
+/* header */
+header {
+  width: 100vw;
+  height: 100vh;
+  /* cancellare */
+  background-color: blue;
+  /* /cancellare */
+}
+
+.header-container {
+  width: 80%;
+  height: 100%;
+  background-color: grey;
+  margin: auto;
+}
+
+/* barra menu */
+.logo{
+  /* cancellare */
+  height: 100px;
+  width: 20%;
+  background-color: red;
+  /* /cancellare */
+}
+.middle-menu{
+  /* cancellare */
+  height: 100px;
+  width: 40%;
+  background-color: yellow;
+  /* /cancellare */
+}
+.right-menu{
+  /* cancellare */
+  height: 100px;
+  width: 40%;
+  background-color: orange;
+  /* /cancellare */
+}
+/* /barra menu */
+
+/* /header */
