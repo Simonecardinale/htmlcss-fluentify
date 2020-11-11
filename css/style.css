@@ -141,6 +141,8 @@ transform: translate(0, -50%);
 /* /header */
 
 /* corpo centrale */
+
+/* section superiore */
 .card-container {
   height: 500px;
   width: 80%;
@@ -171,4 +173,43 @@ transform: translate(0, -50%);
   margin: 20px 120px;
 }
 
+section > hr {
+  width: 80%;
+  margin: auto;
+}
+/* /section superiore */
+
+/* section inferiore */
+.mountain-container, .description-container {
+  width: 25%;
+  height: 400px;
+  /* background-color: blue; */
+  /* border: 2px solid black; */
+  float: left;
+  margin-top: 50px;
+}
+
+.mountain-container {
+  margin-left: 20%;
+  background-image: url('../img/mountain.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.description-container {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.description-container > h2 {
+  font-size: 30px;
+}
+
+.description-container > p {
+  color: grey;
+  margin: 20px 0;
+
+}
+
+/* /section inferiore */
 /* /corpo centrale */
