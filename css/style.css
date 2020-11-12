@@ -40,26 +40,16 @@ header {
 
 /* barra menu */
 .logo{
-  /* cancellare */
   height: 50px;
   width: 20%;
-  /* /cancellare */
   position: relative;
 }
 .middle-menu{
   width: 40%;
-  /* cancellare */
-  /* height: 50px;
-  background-color: yellow; */
-  /* /cancellare */
   padding-top: 10px;
 }
 .right-menu{
   width: 40%;
-  /* cancellare */
-  height: 50px;
-  /* background-color: orange; */
-  /* /cancellare */
   padding-top: 10px;
 }
 
@@ -146,7 +136,6 @@ transform: translate(0, -50%);
 .card-container {
   height: 500px;
   width: 80%;
-  /* background-color: red; */
   margin: 50px auto;
   text-align: center;
 }
@@ -154,7 +143,6 @@ transform: translate(0, -50%);
 .card {
   height: 100%;
   width: 30%;
-  /* background-color: pink; */
   margin: 0  calc(100% / 60 );
   float: left;
   text-align: center;
@@ -183,8 +171,6 @@ section > hr {
 .mountain-container, .description-container {
   width: 25%;
   height: 400px;
-  /* background-color: blue; */
-  /* border: 2px solid black; */
   float: left;
   margin-top: 50px;
 }
@@ -222,7 +208,6 @@ footer {
 }
 
 .footer-container-left, .footer-container-right {
-  /* height: 100px; */
   width: 40%;
   margin: 5%;
   float: left;
